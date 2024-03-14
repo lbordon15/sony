@@ -1,7 +1,7 @@
 :root {
     --text-01: #45413E;
-    --light-01: #F9F9F9;
-    --light-02: #FFFFFF;
+    --light-01: #000000;
+    --light-02: #ffffff;
     --brand-01: #000;
     --brand-02: #fff;
     --card-hover: 0px 4px 24px rgba(0, 0, 0, 0.15);
@@ -41,7 +41,6 @@ header {
     top: 0;
     /*    border: 1px solid red;*/
     z-index: 100;
-    color: #000;
 }
 
 .banner {
@@ -58,7 +57,7 @@ header {
 }
 
 nav {
-    color: #000;
+    color: var(--text-01);
     font-weight: 600;
     height: 64px;
     background: var(--light-01);
