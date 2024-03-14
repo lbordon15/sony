@@ -58,7 +58,7 @@ header {
 }
 
 nav {
-    color: var(--text-01);
+    color: #000;
     font-weight: 600;
     height: 64px;
     background: var(--light-01);
