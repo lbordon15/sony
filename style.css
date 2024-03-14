@@ -52,8 +52,13 @@ header {
     padding: 8px 24px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    height: 60px;
 
+}
+
+.banner img {
+    
 }
 
 nav {
@@ -143,6 +148,10 @@ nav > #utility {
     flex-direction: row;
     align-items: center;
     grid-gap: 16px;
+}
+.banner img {
+    scale: 5%;
+    
 }
 
 .card-large,
